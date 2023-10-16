@@ -77,7 +77,7 @@ public class IndexController {
     	return "개인정보";
     }
     
-    @PreAuthorize("hasRole('ROLE_MANAGER')or hasRole('ROLE_ADMIN)")
+    //@PreAuthorize("hasRole('ROLE_MANAGER')or hasRole('ROLE_ADMIN)")
     //@PostAuthorize()
     @GetMapping("/data")
     public @ResponseBody String data() {
