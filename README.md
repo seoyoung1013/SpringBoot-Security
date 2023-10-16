@@ -34,6 +34,7 @@ use security;
 ```
 
 ###Oauth2 구글 프로필 사용
+```java
 {sub=111061868356786625939, name=이서영, given_name=서영, 
 family_name=이, 
 picture=https://lh3.googleusercontent.com/a/ACg8ocISbEIK54hcznKJPedKPlnWJQCz3gneNxo_SwiFtqSi=s96-c, 
@@ -47,3 +48,4 @@ email = "seoyeongi851@gmail.com"
 role = "ROLE_USER"
 provider = "google"
 providerId = "111061868356786625939"
+```
