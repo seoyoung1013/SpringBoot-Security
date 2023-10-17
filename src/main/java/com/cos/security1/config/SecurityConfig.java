@@ -13,7 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import com.cos.security1.config.oauth.PrincipalOauth2UserService;
 
 
-@SuppressWarnings("deprecation")
+
 @Configuration // IoC 빈(bean)을 등록
 @EnableWebSecurity // 필터 체인 관리 시작 어노테이션
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true) 
